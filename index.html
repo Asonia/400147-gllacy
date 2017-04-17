@@ -5,8 +5,139 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+    <header class="shop-header">
+      <div class="container">
+        <div class="logo">
+          <img src="img/index-logo.png" alt="Логотип">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li> <a href="#">Каталог</a></li>
+            <li> <a href="#">Доставка и оплата</a></li>
+            <li> <a href="#">О Компании</a></li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="search"><img src="img/index-logo.png" alt="search"></a>
+          <a href="#" class="login">Вход</a>
+          <a href="#" class="basket">Пусто</a>
+        </div>
+        <div class="contacts">
+          С 10 до 20 ежедневно<br>
+          8 812 450 25 25
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="slider">
+          <h1>Крем-брюле и пломбир<br>с малиновым джемом</h1>
+          <a class="btn" href="#">Давайте оба!</a>
+        </div>
+        <div class="special-offer">
+          <div class="raspberries-jam">
+            <h2>Малинка даром!</h2>
+            <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+            <a class="btn" href="#">Хочу варенье!</a>
+          </div>
+          <div class="chocolate-top">
+            <h2>Шоколадки даром!</h2>
+            <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+            <a class="btn" href="#">Хочу шоколадки!</a>
+          </div>
+        </div>
+        <div class="ice-cream">
+          <div class="orange">
+            <img src="http://placehold.it/150x100" alt="Апельсиновое">
+            <p class="price">310<img src="http://placehold.it/" alt="рублей">/кг</p>
+            <p class="ice-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+          </div>
+          <div class="coffee">
+            <img src="http://placehold.it/150x100" alt="Кофейное">
+            <p class="price">380<img src="http://placehold.it/" alt="рублей">/кг</p>
+            <p class="ice-description">Сливочно-кофейное с кусочками шоколада</p>
+          </div>
+          <div class="strawberry">
+            <img src="http://placehold.it/150x100" alt="Клубничное">
+            <p class="price">355<img src="http://placehold.it/" alt="рублей">/кг</p>
+            <p class="ice-description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+          </div>
+          <div class="Creme-brulee">
+            <img src="http://placehold.it/150x100" alt="Крем-брюле">
+            <p class="price">415<img src="http://placehold.it/" alt="рублей">/кг</p>
+            <p class="ice-description">Сливочное крем-брюле с карамельной подливкой</p>
+          </div>
+        </div>
+        <div class="about-us">
+          <h3>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h3>
+          <div class="left-column">
+            <p>Все наше мороженое изготавливается на собственном производстве,
+              с использованием современного оборудования и проверенных временем технологий.
+            </p>
+            <p>Для приготовления мороженого используются настоящие сливки и молоко
+            высочайшего качества. Все дополнительные ингредиенты и добавки произведены
+            из натурального, экологически чистого сырья.
+            </p>
+          </div>
+          <div class="right-column">
+            <p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств
+               и компаний, с которыми нас связывает долговременное сотрудничество.
+            </p>
+            <p>Доставка нашего мороженого до заказчиков осуществляется в специальном
+             термопаке, который не дает мороженому растаять в пути и позволяет
+             сохранить превосходный вкус.
+            </p>
+          </div>
+        </div>
+        <div class="blog-and-mail">
+          <div class="blog">
+            <p>Новое в нашем блоге</p>
+            <h3>10  способов сервировки<br>фруктовых щербетов к<br>столу</h3>
+          </div>
+          <div class="mail">
+            <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного,
+              что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
+              Честно =)
+            </p>
+            <div class="email-post">
+              <label for="email">Электронная почта</label>
+              <input type="text" name="email" id="email">
+              <input type="submit" class="btn" value="Отправить">
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <div class="adress-and-phone">
+            <p>Адрес главного офиса<br>
+              Для заказов по телефону:<br>
+              8 812 450-25-25<br>
+              (с 10 до 20 ежедневно)
+            </p>
+            <a class="btn" href="#">Форма обратной связи</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-social">
+          <a class="social-btn social-btn-inst" href="#">Twitter</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li> <a href="#">Для поставщиков</a></li>
+            <li> <a href="#">Наши документы</a></li>
+            <li> <a href="#">О производстве</a></li>
+            <li> <a href="#">Экологичские стандарты</a></li>
+          </ul>
+          <div class="footer-copyright">
+            <p>Сделано в HTML Academy © 2017</p>
+          </div>
+        </div>
+       </div>
+     </footer>
+    </body>
 </html>
