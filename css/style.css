@@ -2,8 +2,9 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
-  font-weight: Medium;
+  font-weight: 400;
   font-family: Roboto;
+  background-color: #849d8f;
 }
 h1 {
   font-size: 60px;
@@ -18,8 +19,96 @@ h2 {
   line-height: 41px;
   color: #ffffff;
   font-weight: bold;
+}
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.shop-header-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.main-navigation {
+  width: 350px;
+  height: 20px;
+}
+.main-navigation ul{
+  display: flex;
+  justify-content: space-between;
+}
+.header-aside {
+  width: 267px;
+  height: 106px;
+}
+
+.slider {
 
 }
-/*
-comment
-*/
+.special-offer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.content-column-half {
+  width: 560px;
+}
+.ice-cream {
+  display: flex;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+
+}
+.cream {
+  width: 267px;
+}
+.about-us {
+  width: 1146px;
+  height: 307px;
+  margin-bottom: 40px;
+}
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-and-mail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
+
+.adress-and-phone {
+  width: 301px;
+  height: 302px;
+  float: right;
+}
+.main-footer-layout {
+  display: flex;
+}
+.footer-social {
+  width: 190px;
+  margin-right: 200px;
+  display: flex;
+}
+.footer-menu ul {
+  width: 333px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.footer-copyright{
+  width: 195px;
+  margin-left: auto;
+}
+.breadcrumbs ul{
+  display: flex;
+}
+.cream-filter-form {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
